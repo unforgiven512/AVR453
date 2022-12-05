@@ -1,0 +1,20 @@
+#
+# .gitattributes
+#
+
+## GENERIC ##
+
+*				text=auto
+
+
+## SOURCE CODE ##
+
+*.c				eol=lf diff=cpp
+*.h				eol=lf diff=cpp
+
+
+
+## TEXT & MARKUP ##
+
+*.txt			eol=crlf
+*.md			eol=crlf diff=markdown
